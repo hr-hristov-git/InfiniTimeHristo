@@ -186,7 +186,7 @@ void Dice::Roll() {
 
   lv_label_set_text_fmt(resultTotalLabel, "%d", resultTotal);
   if (openingRoll == false) {
-    motorController.RunForDuration(30);
+    motorController.RunForDuration(29);
     NextColor();
     currentRollHysteresis = rollHysteresis;
   }
